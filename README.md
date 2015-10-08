@@ -2,7 +2,7 @@
 
 ### Overview
 
-PingFederate password credential validator to check username/password against a SQL database using a stored procedure.
+PingFederate password credential validator to validate a username/password against a SQL Stored Procedure.
 
 
 ### System Requirements / Dependencies
@@ -26,10 +26,12 @@ Requires:
 Once the plug-in has been deployed and the PingFederate instance restarted, launch the PingFederate admin console:
 
 1. Create a new password credential validator instance under: Authentication > Password Credential Validators
-2. Name the instance and select "SQL Stored Procedure Password Credential Validator" as the type
-3. Refer to the inline documentation to configure your REST endpoint details
+2. Name the instance and select the appropriate validator from the "type" list
+3. Refer to the inline documentation to configure the validator
 
 
 ### Disclaimer
 
-This software is open sourced by Ping Identity but not supported commercially as such. Any questions/issues should go to the mailing list, the Github issues tracker or the author pmeyer@pingidentity.com directly See also the DISCLAIMER file in this directory.
+This software is open sourced by Ping Identity but not supported commercially as such. Any questions/issues should go to the Github issues tracker or discuss on the [Ping Identity developer communities] . See also the DISCLAIMER file in this directory.
+
+[Ping Identity developer communities]: https://community.pingidentity.com/collaborate
